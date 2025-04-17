@@ -1,0 +1,88 @@
+:root {
+  --hero-section-background:#D1EDF5;
+  --black-button-background:#0D0D0D;
+  --white-color:#FFFFFF;
+
+}
+
+[data-theme='dark'] {
+  --hero-section-background:#1E1E2F;
+  --black-button-background:#0D0D0D;
+  --white-color:#FFFFFF;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+p {
+  margin: 0 !important;
+}
+
+html {
+  font-size: clamp(14px, 13.5146px + 0.1294vw, 16px);
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #FEFCF8 !important;
+}
+
+html {
+  font-size: clamp(14px, 13.5146px + 0.1294vw, 16px);
+}
+
+html,
+body {
+  background: var(--color-body-background);
+  height: 100%;
+  width: 100%;
+  scroll-behavior: smooth;
+
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.Secodey-button {
+  position: relative;
+  background-color: transparent;
+  color: var(--black-button-background);
+  padding: 16px 42px;
+  font-size: 1.125rem;
+  font-weight: 500;
+  cursor: pointer;
+  border: 1px solid var(--black-button-background);
+  overflow: hidden;
+  z-index: 1;
+  transition: color 0.4s ease;
+}
+
+.Secodey-button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #E7F875;
+  z-index: -1;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.4s ease-in-out;
+}
+
+.Secodey-button:hover::before {
+  transform: scaleX(1);
+}
+
+.Secodey-button:hover {
+  color: var(--black-button-background); /* Optional: changes text color on hover */
+}
