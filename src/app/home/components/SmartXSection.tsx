@@ -27,7 +27,7 @@ const SmartXSection = () => {
         >
           <Stack maxWidth={'595px'} gap={2}>
             <Typography
-              fontSize={{ xs: '1.5rem', md: '2.75rem' }}
+              fontSize={{ xs: '2.5rem', md: '2.75rem' }}
               fontWeight={600}
               lineHeight='1.2'
             >

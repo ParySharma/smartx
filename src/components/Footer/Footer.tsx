@@ -75,9 +75,14 @@ const Footer = () => {
           </Grid2>
 
           {/* Right Section */}
-          <Grid2 container spacing={4} size={{ xs: 12, md: 6 }}>
+          <Grid2
+            container
+            direction={{ xs: 'column', md: 'row' }}
+            spacing={4}
+            size={{ xs: 12, md: 6 }}
+          >
             {_map(footerLinks, ({ title, items }, idx) => (
-              <Grid2 key={idx} size={{ xs: 4 }}>
+              <Grid2 key={idx} size={{ xs: 12, md: 4 }}>
                 <Typography fontSize='1.375rem' fontWeight={600}>
                   {title}
                 </Typography>

@@ -10,7 +10,7 @@ const HeroSection = () => {
     <Box
       sx={{
         backgroundColor: 'var(--hero-section-background)',
-        maxHeight: '812px',
+        maxHeight: { xs: '100%', sm: '812px', md: '812px' },
       }}
     >
       <ContainerLayout>

@@ -26,7 +26,7 @@ const ExplorSection = () => {
         <Typography
           variant='h2'
           fontSize={{
-            xs: '1.5rem',
+            xs: '2.5rem',
             md: '2.75rem',
           }}
           textAlign='center'
@@ -45,7 +45,11 @@ const ExplorSection = () => {
           }}
         >
           {_map(ExplorCardContents, (item, index) => (
-            <StyledBox key={index} width={'370px'}>
+            <StyledBox
+              key={index}
+              width={'370px'}
+              padding={{ xs: '1.25rem', md: '0' }}
+            >
               <Image
                 src={item?.icon}
                 alt='explore'

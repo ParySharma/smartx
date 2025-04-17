@@ -23,6 +23,7 @@ const StyledBox = styled(Box)`
   background: #fff;
   max-height: 394px;
   height: 100%;
+  width: 100%;
   box-shadow: 0px 4px 36px 0px #0000000f;
   transition: transform 0.5s ease, box-shadow 0.5s ease;
 
@@ -65,7 +66,7 @@ const ClientsWords = () => {
             <Typography
               variant='h2'
               fontSize={{
-                xs: '1.5rem',
+                xs: '2.5rem',
                 md: '2.75rem',
               }}
               fontWeight={600}
@@ -109,6 +110,7 @@ const ClientsWords = () => {
             md: '1.875rem',
           }}
           mt={{ xs: '2rem', md: '2.25rem' }}
+          padding={{ xs: '1.25rem', md: '0' }}
         >
           {_map(ClientCardContents, (item, index) => (
             <StyledBox key={index} width={'370px'}>

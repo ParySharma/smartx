@@ -92,7 +92,7 @@ const CollaborateSection = () => {
           <Box sx={{ maxWidth: '904px' }} textAlign={'center'}>
             <Typography
               fontSize={{
-                xs: '1.5rem',
+                xs: '2.5rem',
                 md: '2.75rem',
               }}
               fontWeight={600}

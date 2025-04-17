@@ -18,7 +18,7 @@ const CompanysSection = () => {
         <Typography
           variant='h2'
           fontSize={{
-            xs: '1rem',
+            xs: '1.5rem',
             md: '1.5rem',
           }}
           textAlign='center'
@@ -27,13 +27,18 @@ const CompanysSection = () => {
           Trusted by great companies
         </Typography>
         <Stack
-          direction={{ xs: 'column', md: 'row' }}
+          direction={'row'}
           justifyContent='space-between'
           alignItems='center'
-          flexWrap='wrap'
           gap={{
             xs: '2rem',
             md: '4rem',
+          }}
+          overflow='auto'
+          sx={{
+            '&::-webkit-scrollbar': {
+              display: 'none',
+            },
           }}
         >
           {_map(CompanyLogos, (logo, index) => (

@@ -23,7 +23,7 @@ const MarketingSection = () => {
         <Typography
           variant='h2'
           fontSize={{
-            xs: '1.5rem',
+            xs: '2.5rem',
             md: '2.75rem',
           }}
           textAlign='center'
