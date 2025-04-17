@@ -1,10 +1,8 @@
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
-
-// Globals Styled
 import '@/styles/globals.css';
+import LoadingWrapper from '@/components/LoadingWrapper';
 
-// Load Inter font
 const inter = Inter({
   variable: '--font-inter',
   subsets: ['latin'],
@@ -21,12 +19,14 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
     <html lang='en'>
-      <body className={inter.variable}>{children}</body>
+      <body className={inter.variable}>
+        <LoadingWrapper>{children}</LoadingWrapper>
+      </body>
     </html>
   );
 }

@@ -1,9 +1,27 @@
 'use client';
+import AnimatedCounter from '@/components/AnimatedCounter';
 import ContainerLayout from '@/components/Container';
 import Header from '@/components/Header';
-import { Box, Stack, Typography } from '@mui/material';
+import SpinningCircle from '@/components/SpinningCircle';
+import {
+  Avatar,
+  AvatarGroup,
+  Box,
+  Stack,
+  Typography,
+  styled,
+} from '@mui/material';
 import Image from 'next/image';
 import React from 'react';
+
+const StyledBox = styled(Box)`
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 16px 20px;
+  text-align: left;
+`;
 
 const HeroSection = () => {
   return (
@@ -76,9 +94,10 @@ const HeroSection = () => {
               </Box>
             </Box>
           </Box>
-          <Box textAlign={'center'}>
+          <Box textAlign={'center'} position={'relative'}>
             <Image
-              src='/images/hero-image.png'
+              src='/images/hero-1.png'
+              // src='/images/hero-image.png'
               alt='hero'
               width={538}
               height={512}
@@ -90,6 +109,59 @@ const HeroSection = () => {
               }}
               unoptimized
             />
+            <Box
+              sx={{
+                position: 'absolute',
+                bottom: '35%',
+                left: '10%',
+                transform: 'translate(-50%, -50%)',
+                display: { xs: 'none', sm: 'block' },
+              }}
+            >
+              <StyledBox>
+                <Stack direction={'row'} spacing={3}>
+                  <AvatarGroup max={2} spacing='small'>
+                    <Avatar
+                      alt='Remy Sharp'
+                      src='/static/images/avatar/1.jpg'
+                    />
+                    <Avatar
+                      alt='Travis Howard'
+                      src='/static/images/avatar/2.jpg'
+                    />
+                  </AvatarGroup>
+                  <Box textAlign={'left'}>
+                    <AnimatedCounter
+                      target={100}
+                      suffix='K+'
+                      fontSize={'1.5rem'}
+                      fontWeight={600}
+                    />
+                    <Typography
+                      fontSize={'0.875rem'}
+                      fontWeight={500}
+                      color='#888888'
+                    >
+                      Customers
+                    </Typography>
+                  </Box>
+                </Stack>
+                <Typography fontSize={'1.625rem'} fontWeight={500}>
+                  View All Reviews
+                </Typography>
+              </StyledBox>
+            </Box>
+            <Box
+              sx={{
+                position: 'absolute',
+                bottom: '-20%',
+                left: '80%',
+                transform: 'translate(-50%, -50%)',
+                display: { xs: 'none', sm: 'block' },
+              }}
+            >
+              <SpinningCircle />
+            </Box>
           </Box>
         </Stack>
       </ContainerLayout>
