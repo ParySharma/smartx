@@ -18,7 +18,7 @@ SMARTX is a sleek and modern SaaS landing page designed to help businesses showc
 
 <h2>:camera_with_flash: Full Page Screenshot</h2>
 <p>
-  <img src="./image.png" alt="SMARTX SaaS Landing Page Full View" width="800">
+  <img src="./smarx.png" alt="SMARTX SaaS Landing Page Full View" width="800">
 </p>
 
 <h2>:bulb: About This Project</h2>
