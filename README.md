@@ -16,11 +16,6 @@ SMARTX is a sleek and modern SaaS landing page designed to help businesses showc
   <li>:white_check_mark: Responsive and clean design for all devices.</li>
 </ul>
 
-<h2>:camera_with_flash: Full Page Screenshot</h2>
-<p>
-  <img src="./smarx.png" alt="SMARTX SaaS Landing Page Full View" width="800">
-</p>
-
 <h2>:bulb: About This Project</h2>
 <p>
 This landing page was designed to provide startups and SaaS businesses with a professional first impression. It emphasizes trust, ease of use, and clear call-to-action buttons to help convert visitors into leads.
@@ -35,3 +30,12 @@ This landing page was designed to provide startups and SaaS businesses with a pr
 </ol>
 
 <p>Feel free to contribute or suggest improvements!</p>
+<h2>:camera_with_flash: Full Page Screenshot</h2>
+<p>
+  <img src="./smarx.png" alt="SMARTX SaaS Landing Page Full View" width="800">
+</p>
+<h2>:camera_with_flash: Full Page Screenshot</h2>
+<p>
+  <img src="./smarx-mob.png" alt="SMARTX SaaS Landing Page Full View" width="800">
+</p>
+
