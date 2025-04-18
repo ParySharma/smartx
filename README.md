@@ -1,36 +1,24 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<h1>SMARTX — SaaS Landing Page</h1>
 
-## Getting Started
+<p>This is a clean and modern SaaS landing page designed to showcase your product and help boost net sales!<br>
+Built with a user-friendly and professional design, this page focuses on clear call-to-actions and engaging visuals.</p>
 
-First, run the development server:
+<h2>:rocket: Features</h2>
+<ul>
+  <li>Eye-catching hero section with bold headlines.</li>
+  <li>Clear CTA buttons: <strong>Get Started for Free</strong> & <strong>Book a Free Demo</strong>.</li>
+  <li>Customer review badge with 100K+ happy users.</li>
+  <li>Responsive and clean layout.</li>
+  <li>Professional design suitable for modern SaaS businesses.</li>
+</ul>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+<h2>:camera_with_flash: Screenshot</h2>
+<p>
+  <img src="./image.png" alt="SMARTX Landing Page Screenshot" width="800">
+</p>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+<h2>:bulb: About</h2>
+<p>
+This landing page is perfect for SaaS startups or businesses looking to increase their online presence and sales.<br>
+The design emphasizes conversion through trust-building elements and clear, modern UI components.
+</p>
