@@ -36,6 +36,6 @@ This landing page was designed to provide startups and SaaS businesses with a pr
 </p>
 <h2>:camera_with_flash: Full Page Screenshot</h2>
 <p>
-  <img src="./smarx-mob.png" alt="SMARTX SaaS Landing Page Full View" width="800">
+  <img src="./smartx-mob.png" alt="SMARTX SaaS Landing Page Full View" width="800">
 </p>
 
